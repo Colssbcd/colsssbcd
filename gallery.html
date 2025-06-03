@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Obstacle Courses</title>
+    <link rel="stylesheet" href="style.css"> <style>
+        /* Basic CSS for layout - you can expand on this */
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        .nav-home { /* Style for the home button container */
+            margin-bottom: 20px;
+            text-align: left; /* Or center, or right as you prefer */
+        }
+        .home-button { /* Style for the home button itself */
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff; /* Example background color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .home-button:hover {
+            background-color: #0056b3; /* Darker on hover */
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .obstacle-course {
+            margin-bottom: 40px;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Creates a responsive grid */
+            gap: 15px;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-home">
+        <a href="index.html" class="home-button">Home</a>
+    </div>
+
+    <h1>Gallery</h1>
+    <p style="text-align: center;">Photos from our obstacle course!</p>
+
+    <section class="obstacle-course">
+        <h2></h2> <div class="gallery-grid">
+            <img src="obstacle course 1.jpg" alt="Obstacle Course Alpha - Photo 1">
+            <img src="obstacle course 2.jpg" alt="Obstacle Course Alpha - Photo 2">
+            <img src="obstacle course 3.jpg" alt="Obstacle Course Alpha - Photo 3">
+            </div>
+    </section>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Colonel's SSB Counselling Destination</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styling for the new video grid */
+        /* It's recommended to move this to your style.css file */
+        .video-gallery-section {
+            padding: 20px 0; /* Add some padding to the section */
+            text-align: center; /* Center the section heading */
+        }
+
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap; /* Allow videos to wrap to the next line on smaller screens */
+            gap: 20px; /* Space between videos */
+            justify-content: center; /* Center videos in the container */
+            margin-top: 20px;
+        }
+
+        .video-item {
+            flex: 1 1 300px; /* Allows videos to grow and shrink, with a base width of 300px */
+            max-width: 480px; /* Maximum width for a video item */
+            box-sizing: border-box;
+        }
+
+        .video-grid video {
+            width: 100%; /* Makes video responsive within its container (.video-item) */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Optional: adds rounded corners to the video player */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+        }
+
+        /* Adjustments for your existing container class if needed */
+        .container {
+            max-width: 1200px; /* Or your preferred max width */
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.jpg" alt="Colonel's SSB Counselling Destination Logo" class="site-logo">
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="welcome-section">
+                <h1>Welcome to Colonel's SSB Counselling Destination</h1>
+                <p>Your dedicated partner in preparing for the Services Selection Board interviews. We provide expert guidance and personalized counselling to help you achieve your dream of joining the forces.</p>
+            </section>
+
+            <section class="info-section">
+                <h2>Our Mission</h2>
+                <p>Our program is designed to cultivate in aspirants of the Armed Forces the essential "Officer Like Qualities" (OLQs) required for selection. Through focused training, we refine their presentation and enhance their alignment with the expectations of the Services, thereby maximizing their potential for recommendation.</p>
+                <p>Beyond military aspirations, our training fosters the development of well-rounded citizens who benefit from comprehensive personality enhancement. Participants will cultivate leadership traits applicable across diverse professional environments. Recognizing the offline nature of the Armed Forces selection process, we prioritize in-person instruction to provide authentic, firsthand experience under the guidance of seasoned Assessors and Mentors.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>Meet the Mentor</h2>
+                <p>Colonel Arun Yadav, a decorated Infantry officer and experienced assessor, serves as the Director of this platform. His distinguished military career encompasses extensive operational experience across diverse terrains—including the Siachen Glacier, deserts during Op Parakaram, and counter-insurgency zones in J&K—alongside significant staff appointments at Directorate, Group HQ, and Corps HQ levels. Recipient of both the COAS and Corps Commander's Commendation Cards, Col Yadav brings a wealth of leadership and field expertise.</p>
+                <p>The platform leverages this experience, offering guidance from a seasoned team of former GTOs, IOs, and Psychologists. Equipped with dedicated GTO facilities, modern classrooms, and mock interview rooms, it provides a comprehensive environment designed to prepare candidates effectively for selection processes and enhance their potential for recommendation.</p>
+            </section>
+
+            <section class="courses-section">
+                <h2>Our Courses</h2>
+                <div class="course">
+                    <h3>I. Comprehensive Offline Course (Two Weeks)</h3>
+                    <ul>
+                        <li><strong>Screening Test Preparation:</strong> Focused training on Officer Intelligence Rating (OIR) tests and Picture Perception & Discussion Test (PPDT).</li>
+                        <li><strong>Psychological Assessment Training:</strong> In-depth practice and guidance on Thematic Apperception Test (TAT), Word Association Test (WAT), Situation Reaction Test (SRT), and Self-Description (SD).</li>
+                        <li><strong>Group Testing Officer (GTO) Tasks:</strong> Practical, real-time execution of all GTO tasks in a dedicated outdoor arena under expert supervision.</li>
+                        <li><strong>Interview Preparation:</strong> Development of interview techniques and personalized one-on-one mock interviews with feedback.</li>
+                        <li><strong>Performance Enhancement:</strong> Guided sessions on meditation and concentration techniques for improved focus and results.</li>
+                        <li><strong>Experiential Activities:</strong> Includes activities such as firing practice (subject to conditions).</li>
+                        <li class="logistics"><strong>Logistics:</strong> Boarding and lodging facilities are available upon request.</li>
+                    </ul>
+                </div>
+
+                <div class="course">
+                    <h3>II. Structured Online Course (Two Weeks)</h3>
+                    <ul>
+                        <li><strong>Daily Sessions:</strong> Two hours of interactive learning each evening (8:00 PM - 10:00 PM IST).</li>
+                        <li><strong>Screening Test Guidance:</strong> Covering OIR and PPDT essentials.</li>
+                        <li><strong>Psychological Assessment Training:</strong> Comprehensive guidance on TAT, WAT, SRT, and SD.</li>
+                        <li><strong>GTO Task Fundamentals:</strong> Understanding the approach and methodology for attempting GTO tasks effectively.</li>
+                        <li><strong>Interview Preparation:</strong> Key strategies and preparation techniques for the personal interview.</li>
+                    </ul>
+                </div>
+
+                <div class="course">
+                    <h3>III. Intensive Mock SSB (Six Days)</h3>
+                    <ul>
+                        <li><strong>Full SSB Simulation:</strong> A complete six-day mock SSB process conducted under the observation of expert assessors.</li>
+                        <li><strong>Targeted Feedback:</strong> Provides detailed performance analysis and specific recommendations for improvement.</li>
+                        <li><strong>Ideal for Repeaters:</strong> Especially beneficial for candidates who have previously attended SSB and require focused refinement.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="video-gallery-section">
+                <h2>Video Gallery</h2>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <video controls>
+                            <source src="video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag. Please try a different browser.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag. Please try a different browser.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="video3.mp4" type="video/mp4">
+                            Your browser does not support the video tag. Please try a different browser.
+                        </video>
+                    </div>
+                </div>
+            </section>
+            </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Colonel's SSB Counselling Destination. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
